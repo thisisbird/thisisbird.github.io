@@ -1,10 +1,12 @@
 # Just度It
 
-#### ==https://thisisbird.github.io==
+#### [https://thisisbird.github.io](https://thisisbird.github.io)
 
-|aaa|asd|
+>紀錄一些東西
+
+|專案|備註|
 |---|---|
-|專案1|[docker](/justDOit)|
+|[laradock](/justDOit)|docker相關配置(php,sql,nginx等)|
 |bbb|ccc|
 |bbb|ccc|
 |bbb|ccc|
