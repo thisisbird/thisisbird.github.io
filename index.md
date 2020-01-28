@@ -6,7 +6,7 @@
 
 |專案|備註|
 |---|---|
-|[laradock](/justDOit)|docker相關配置(php,sql,nginx等)|
+|[laradock](/laradock)|docker相關配置(php,sql,nginx等)|
 |bbb|ccc|
 |bbb|ccc|
 |bbb|ccc|
