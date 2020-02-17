@@ -1,3 +1,4 @@
+###### tags: `教學`
 # Just度It
 
 #### [https://thisisbird.github.io](https://thisisbird.github.io)
@@ -7,8 +8,6 @@
 |專案|備註|
 |---|---|
 |[laradock](/laradock)|docker相關配置(php,sql,nginx等)|
-|bbb|ccc|
-|bbb|ccc|
-|bbb|ccc|
-|bbb|ccc|
+|[vscode](/vscode)|vscode套件|
+
 
