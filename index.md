@@ -8,7 +8,8 @@
 |專案|備註|
 |---|---|
 |[laradock](/laradock)|docker相關配置(php,sql,nginx等)|
-|[vscode](/vscode)|vscode套件|
+|[vscode](/vscode.md)|vscode套件|
+|[git](/git.md)|git指令|
 
 ![qq](https://i.imgur.com/qGrgOVc.png)
 
