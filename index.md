@@ -1,5 +1,5 @@
 ###### tags: `教學`
-# Just度It
+# thisisbird.github.io
 
 #### [https://thisisbird.github.io](https://thisisbird.github.io)
 
@@ -8,8 +8,8 @@
 |專案|備註|
 |---|---|
 |[laradock](/laradock)|docker相關配置(php,sql,nginx等)|
-|[vscode](/vscode)|vscode套件|
 |[git](/git)|git指令|
+|[laravel_package](/laravel_package)|做自己的package|
 
-![qq](https://i.imgur.com/qGrgOVc.png)
+
 
