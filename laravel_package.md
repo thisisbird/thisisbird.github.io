@@ -37,7 +37,7 @@
     ```
     laravel/framdwork 這邊要特別注意，這邊指的是使用者下載使用你套件時的必要環境，以上例來說，就是規定使用者的 Laravel 版本必須是 5.1.* 使用者將無法下載該套件。  
     
-    然後 autoload 指定凡使用 virtualorz\hello 的來源是 src  
+    然後 autoload 指定凡使用 Virtualorz\Hello 的來源是 src  
    
 4. ## 設定PSR-4命名空間  
    我們必須回到上述管理package的project根目錄將剛剛建立好的package加入到composer.json中，讓他可以在這個project中運行
@@ -73,7 +73,7 @@
     
     同樣的也必須要修改namespace，也因為extend Controller的關係，所以必須將App\Http\Controllers\Controller 拿進來用
     ![](https://i.imgur.com/jWrtEQy.png)  
-    **上圖中 ~~Hello::welcome~~ 改成 HelloWorld::welcome **
+     #### 上圖中 ~~Hello::welcome~~ 改成 HelloWorld::welcome 
     
 7. ## 建立Route  
     Route可以根據不同的狀況來建立所需要的存取路徑，本次範例在 MyPackage/virtualorz/hello/src 底下建立routes.php，填入以下路徑  
@@ -88,7 +88,7 @@
     ![](https://i.imgur.com/rIEGTir.png)
 
     
-9. ## 修改ServiceProvider  
+9. ## 修改HelloServiceProvidor  
     最後我們還要修改一下SeviceProvidor檔案，讓系統可以知道從哪邊將view讀進來
     ![](https://i.imgur.com/ESUC37y.png)
 
@@ -142,16 +142,25 @@
     接著去 packagist 把我們的 git url 貼過去  
     [https://packagist.org/login/](https://packagist.org/login/)  
     用github帳號登入  
-    貼上github網址  
+    貼上github網址(上傳的package)  
     ![](https://i.imgur.com/BnSpyzZ.png)
 
 13. ## 安裝套件  
+    進入新的專案  
+    
     只要輸入composer require thisisbird/hello 即可安裝"自己"的套件到vendor資料夾  
     
     然後他們就可以跟你一樣，直接用
     
     `use Virtualarz\Hello\HelloController;`
     
-    或輸入網址  
+    ### 或 看套件使用方式  
+    在config/app.php 中註冊HelloServiceProvidor
+
+    `Virtualorz\Hello\HelloServiceProvider::class`  
+    
+    ![](https://i.imgur.com/T68jkL0.png)
+
+    並輸入網址  
     
     `http://127.0.0.1:8888/hello`
