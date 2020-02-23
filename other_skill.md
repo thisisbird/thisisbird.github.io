@@ -20,7 +20,11 @@
 ---
 
 # chrome
-1. 簡化視窗
+1. 簡化視窗1
    - 網址輸入[chrome://flags](chrome://flags)
    - 搜尋Focus Mode並啟動
    - 頁籤右鍵->將焦點移至這個分頁
+
+2. 簡化視窗2
+   - 右鍵->新增->捷徑
+   - "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --app="網址" --kiosk
